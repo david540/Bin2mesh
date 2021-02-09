@@ -7,7 +7,7 @@ add_subdirectory(ultimaille)
 include_directories(ultimaille ultimaille/ext)
 
 
-add_executable(bin2mesh main.cpp bin2mesh.cpp bin2mesh.h)
+add_executable(bin2mesh main.cpp voronoi.cpp bin2mesh.cpp)
 target_link_libraries(bin2mesh ultimaille)
 
 
